@@ -1,0 +1,49 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+#container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contain{
+    height: auto;
+    width: auto;
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+.images{
+    width: auto;
+}
+.images img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    margin-top: 20px;
+    opacity: 0.6;
+    cursor: pointer;
+}
+.images img:hover{
+    opacity: 1;
+}
+.img-cont{
+    width: 400px;
+    height: 450px;
+    margin-top: 20px;
+}
+.img-cont img{
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+}
